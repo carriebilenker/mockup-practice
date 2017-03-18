@@ -1,9 +1,18 @@
 /*root font */
 html {font-size: 16px;}
 
+
 * { box-sizing: border-box;}
 .container {
-  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+  order: 4;
+
+  border: 0px solid #ccc;
   background: #ddd;
   margin: 0 auto;
   height: 20rem;
@@ -11,16 +20,6 @@ html {font-size: 16px;}
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-
-.item {
-  display: inline-block;
-
-
-  color: white
-  text-shadow: 0 0 0.1rem #333;
-  letter-spacing: -1px;
-  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
 }
