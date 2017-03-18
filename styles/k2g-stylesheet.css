@@ -19,30 +19,8 @@ html {font-size: 16px;}
   display: inline-block;
 
 
-  color: white;
+  color: white
   text-shadow: 0 0 0.1rem #333;
   letter-spacing: -1px;
   text-align: center;
-}
-
-.blue {
-  background: blue;
-  height: 5rem;
-  width: 3rem;
-/* TRBL
-  padding: 4rem 2rem 0 10rem;
-  margin-left: 10rem;
-  border-bottom: 20px inset purple;*/
-}
-
-.red {
-  background: red;
-  height: 2rem;
-  width: 8rem;
-}
-
-.orange {
-  background: orange;
-  height: 8rem;
-  width: 4rem;
 }
