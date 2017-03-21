@@ -2,8 +2,18 @@
 html {font-size: 16px;
       font-family: "Arial", Gadget, sans-serif
 }
+.kitten-header {
+ background-color: #000;
+ color: white;
+}
+
+.kitten-aside {
+  margin-top: 20rem;
+  border: 3px solid black;
+  text-align: center;
 
 
+/*
 * { box-sizing: border-box;}
 
 .aside-container {
@@ -13,3 +23,4 @@ html {font-size: 16px;
   flex-wrap: wrap;
   align-self: flex-center;
 }
+*/
