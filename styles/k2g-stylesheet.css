@@ -8,9 +8,15 @@ html {font-size: 16px;
 }
 
 .kitten-aside {
-  margin-top: 20rem;
   border: 3px solid black;
   text-align: center;
+}
+
+.kitten-footer {
+  background-color: #000;
+  color: white;
+  height: 20rem;
+}
 
 
 /*

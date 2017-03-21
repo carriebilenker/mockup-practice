@@ -1,8 +1,10 @@
+
 .kitten-header {
   width: 100%;
   height: 15rem;
   padding: .5rem 0 0 0;
   position: absolute;
+  
 }
 
 .kitten-body {
@@ -18,8 +20,7 @@
   justify-content: flex-end;
   flex-direction: column;
   align-items: stretch;
-  margin-top: 10rem;
+  margin-top: 30rem;
   margin-bottom: 10rem;
   margin-right: 0rem;
-
 }
