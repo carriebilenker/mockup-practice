@@ -8,11 +8,21 @@ html {font-size: 16px;
  height: 30rem;
 }
 
+.kitten-header h1{
+ color: white;
+}
+
+.kitten-header h2 {
+ color: #808080;
+ margin-top: 17rem;
+
+}
+
 .kitten-nav {
   background-color: #808080;
   color: #000;
   font-size: 1.5rem;
-  align-content: space-between;
+
 }
 .kitten-nav p {
   color: #000;
@@ -23,6 +33,11 @@ html {font-size: 16px;
 .kitten-aside {
   border: 3px solid black;
   text-align: center;
+}
+
+.kitten-footer {
+  background: #000;
+  color: #fff;
 }
 
 
