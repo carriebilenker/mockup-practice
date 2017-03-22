@@ -5,17 +5,24 @@ html {font-size: 16px;
 .kitten-header {
  background-color: #000;
  color: white;
+ height: 30rem;
+}
+
+.kitten-nav {
+  background-color: #808080;
+  color: #000;
+  font-size: 1.5rem;
+  align-content: space-between;
+}
+.kitten-nav p {
+  color: #000;
+  font-size: 5rem;
+  padding-top: 0;
 }
 
 .kitten-aside {
   border: 3px solid black;
   text-align: center;
-}
-
-.kitten-footer {
-  background-color: #000;
-  color: white;
-  height: 20rem;
 }
 
 
