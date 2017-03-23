@@ -4,38 +4,35 @@ html {font-size: 16px;
 }
 .kitten-header {
  background-color: #000;
- color: white;
  height: 30rem;
 }
 
 .kitten-header h1{
  color: white;
+ font-size: 10rem;
 }
 
 .kitten-header h2 {
  color: #808080;
- margin-top: 17rem;
+ font-size: 6rem;
+
 }
 
-.kh-cta {
-  font-size: 4rem;
+.kitten-header p {
   color: red;
-  margin-left: 200rem;
-}
-
+  font-size: 5rem;
 }
 
 .kitten-nav {
   background-color: #808080;
   color: #000;
-  font-size: 1.5rem;
-
-}
-.kitten-nav p {
-  color: #000;
   font-size: 5rem;
-  padding-top: 0;
 }
+
+.kitten-body{
+  font-size: 5rem;
+}
+
 
 .kitten-aside {
   border: 3px solid black;
