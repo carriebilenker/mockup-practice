@@ -1,21 +1,22 @@
 * {box-sizing: border-box;}
 
-.page-wrapper {
-  min-height: 100%;
-  padding-bottom: 30rem;
-  position: relative;
+.k2g {
+  display: flex;
+  flex-direction: column;
 }
 
-
-.kitten-header {
+.k2g-body {
   display: flex;
-  flex-wrap: wrap;
+  flex: 1;
+}
+
+.k2g-header {
+  flex:none;
   flex-direction: column;
-  align-items: flex-start;
   padding-left: 5rem;
 
 }
-
+/*
 .kitten-header h1  {
   padding: 0;
   margin: 0;
@@ -26,44 +27,46 @@
   padding: 0;
   margin: 0;
 }
-
+*/
 
 .kitten-nav {
   height: 10rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
+  
   padding-top: 2rem;
 }
 
 
 .kitten-body {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
-/*
-.kitten-aside {
-  display: flex;
+
+.kitten-body article {
+  padding: 5rem 100rem 5rem 20rem;
+  align-content: center;
+  text-align: justify;
+  flex: 1;
+
+}
+
+.kitten-body aside {
+  position: relative;
   float: right;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: stretch;
-  margin-top: 5rem;
-  margin-bottom: 10rem;
   margin-right: 5rem;
-  }
-  */
+  margin-bottom: 100rem;
+}
+
 
 .kitten-footer {
   display: block;
   justify-content: flex-end;
   flex-direction: column;
   height: 50rem;
-  margin-top: 150rem;
   margin-bottom: 0rem;
   margin-right: 5rem;
   width: 100%;

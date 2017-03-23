@@ -1,18 +1,19 @@
 /*root font */
 html {font-size: 16px;
-      font-family: "Arial", Gadget, sans-serif
-}
-.kitten-header {
- background-color: #000;
- height: 30rem;
+      font-family: "Aria", Gadget, sans-serif
 }
 
-.kitten-header h1{
+.k2g-header {
+ background-color: #000;
+ height: 40rem;
+}
+
+.k2g-header h1{
  color: white;
  font-size: 10rem;
 }
 
-.kitten-header h2 {
+.k2g-header h2 {
  color: #808080;
  font-size: 6rem;
 
@@ -23,21 +24,23 @@ html {font-size: 16px;
   font-size: 5rem;
 }
 
+
 .kitten-nav {
   background-color: #808080;
   color: #000;
   font-size: 5rem;
 }
 
-.kitten-body{
-  font-size: 5rem;
+.k2g{
+  font-size: 7rem;
 }
 
 
-.kitten-aside {
+.kitten-body aside {
   border: 3px solid black;
   text-align: center;
 }
+
 
 .kitten-footer {
   background: #000;
@@ -55,15 +58,3 @@ html {font-size: 16px;
     font-size: 4rem;
     color: red;
 }
-
-/*
-* { box-sizing: border-box;}
-
-.aside-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-self: flex-center;
-}
-*/
